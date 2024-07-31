@@ -9,7 +9,7 @@
 .title{
     font-size: 36px;
     font-weight: 800;
-    margin-bottom: 10px;
+   
 }
 .des{
     color: rgba(19, 19, 24, 0.7);
@@ -34,6 +34,11 @@ nav{
 .nav-logo{
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+.nav-logo img{
+    height: 70%;
+   
 }
 .title-color{
     color:rgb(255, 84, 0) ;
@@ -325,7 +330,7 @@ main section{
 }
 .newsletter-content{
     border-radius: 8px;
-    padding: 40px;
+    padding: 34px;
     border: 1px solid rgb(255, 84, 0);
 }
 .newsletter-title{
@@ -372,8 +377,38 @@ main section{
     font-weight: 400;
     margin-bottom: 2px;
 }
-/* Display Hide */
-.hide{display: none;}
+/* Footer Section Styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    max-width: 1170px;
+    margin: 100px auto;
+    padding: 100px 300px;
+    text-align: center;
+}
+.footer-logo1{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+.footer-logo2 img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer-logo2 hr{
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+.footer-logo2 h4{
+    color: rgb(19, 19, 24);
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-logo1 img{
+    height: 70%;
+    margin-top: 32px;
+}
 @media screen and (max-width:600px) {
     main section{
         margin-top: 20px;
@@ -482,5 +517,8 @@ main section{
     .newsletter-img-content h4{
         font-size: 12px;
         margin-top: 20px;
+    }
+    .footer-content{
+        padding: 30px;
     }
 }
